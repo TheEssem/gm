@@ -33,7 +33,7 @@ function gm (source, height, color) {
   this._in = [];
   this._out = [];
   this._outputFormat = null;
-  this._subCommand = 'convert';
+  this._subCommand = '';
 
   if (source instanceof Stream) {
     this.sourceStream = source;
